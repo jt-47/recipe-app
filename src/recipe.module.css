@@ -1,0 +1,27 @@
+.recipe {
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px #717171;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: #fff;
+	align-items: center;
+	width: 25%;
+}
+
+.image {
+	border-radius: 40%;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+	transition: 0.75s;
+}
+
+.image:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+h1 {
+	text-align: center;
+}
